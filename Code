@@ -1,0 +1,148 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>SCADE Club</title> 
+<link rel="stylesheet" href="karan.css"> 
+</head > 
+<body class="background-image"> 
+    <nav> 
+        <div class="container"> 
+            <a href="#" class="logo">SCADE Club</a> 
+            <br> 
+            <ul class="nav-links"> 
+               
+              <li><a href="#hero">Home</a></li> 
+                <li><a href="#about">About</a></li> 
+                <li><a href="#contact">Contact</a></li> 
+              
+            </ul> 
+ 
+        </div> 
+    </nav> 
+ 
+    <section id="hero"> 
+        <div class="container"> 
+            <h1 style="color: azure;">Welcome to SCADE Club</h1> 
+            <p style="color: azure;">Society of Cyber Security Advancement and Data Science Excellence</p> 
+        </div> 
+    </section> 
+ 
+    <section id="about"> 
+        <div class="container"> 
+            <h2>About Us</h2> 
+            <p >SCADE Club is dedicated to advancing cyber security and data science excellence in our college. We provide resources, training, and events to help students excel in these fields.</p> 
+        </div> 
+    </section> 
+ 
+    <section id="contact"> 
+        <div class="container"> 
+            <h2>Contact Us</h2> 
+            <form> 
+                <label style="text-align: center;"  for="name">Name:</label> 
+                <input type="text" id="name" name="name" required> 
+                <label style="text-align: center;"  for="email">Email:</label> 
+                <input style="text-align: center;" type="email" id="email" name="email" required> 
+                <label style="text-align: center;" for="message">Message:</label> 
+                <textarea id="message" name="message" required></textarea> 
+                <button type="submit">Submit</button> 
+            </form> 
+        </div> 
+    </section> 
+ 
+    <footer> 
+        <div class="container"> 
+            <p>&copy; 2024 SCADE Club. All rights reserved.</p> 
+        </div> 
+    </footer> 
+ 
+    <script> 
+        // You can add any JavaScript functionality here if needed 
+    </script> 
+</body> 
+</html>
+
+
+  body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  } 
+   
+  nav { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+  } 
+   
+  nav .container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+  nav .logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+  } 
+   
+  nav .nav-links { 
+    list-style: none; 
+    display: flex; 
+    gap: 15px; 
+  } 
+   
+  nav .nav-links a { 
+    color: #1dcf6a; 
+    text-decoration: none; 
+  } 
+   
+  #hero { 
+    background: url('hero-bg.jpg') no-repeat center center/cover; 
+    color: #543030; 
+    padding: 100px 0; 
+    text-align: center; 
+  } 
+   
+  #about, #contact { 
+    padding: 50px 0; 
+    text-align: center; 
+  } 
+   
+  #contact form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+  } 
+   
+  #contact form label { 
+    text-align: left; 
+  } 
+   
+  #contact form input, #contact form textarea { 
+    padding: 10px; 
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+  } 
+   
+  #contact form button { 
+    padding: 10px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    max-width: 100px; 
+    margin: 0 auto; 
+  } 
+   
+  footer { 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+  } 
+  .background-image{ 
+    background-image: url(karan.jpg.jpg); 
+  }
